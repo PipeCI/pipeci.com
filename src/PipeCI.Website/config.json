@@ -1,0 +1,19 @@
+﻿{
+  "Data": {
+    "DefaultConnection": {
+      "Type": "PostgreSQL",
+      "ConnectionString": "User ID=postgres;Password=pipeci123456;Host=localhost;Port=5432;Database=pipeci;"
+    },
+    "SQLServerConnection": {
+      "Type": "SQLServer",
+      "ConnectionString": "Server=localhost;User Id=sa;Password=pipeci123456;Database=pipeci;"
+    },
+    "SQLiteConnection": {
+      "Type": "SQLite",
+      "ConnectionString": "Data source=~/Database/pipeci.db"
+    },
+    "InMemoryConnection": {
+      "Type": "InMemory"
+    }
+  }
+}
