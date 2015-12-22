@@ -22,7 +22,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -1196,6 +1196,47 @@
           "lib/dnx451/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1836,10 +1877,11 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1"
@@ -1848,9 +1890,7 @@
           "Microsoft.CSharp",
           "mscorlib",
           "System",
-          "System.Core",
-          "System.Net",
-          "System.Net.Http"
+          "System.Core"
         ],
         "compile": {
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
@@ -1859,7 +1899,7 @@
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -2109,7 +2149,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -3114,6 +3154,49 @@
           "lib/dnxcore50/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Diagnostics.Tools": "4.0.1-beta-23516",
+          "System.Dynamic.Runtime": "4.0.11-beta-23516",
+          "System.Linq.Expressions": "4.0.11-beta-23516",
+          "System.Reflection.Emit": "4.0.1-beta-23516",
+          "System.Reflection.Emit.ILGeneration": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Reflection.Primitives": "4.0.1-beta-23516",
+          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
+          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516",
+          "System.Threading.ThreadPool": "4.0.10-beta-23516",
+          "System.Threading.Timer": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3805,10 +3888,11 @@
           "lib/dnxcore50/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.CSharp": "4.0.1-beta-23516",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
@@ -3828,7 +3912,7 @@
           "lib/dotnet5.4/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
@@ -4434,7 +4518,7 @@
           "lib/DNXCore50/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.0": {
+      "System.Reflection.Emit/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.IO": "4.0.0",
@@ -4444,13 +4528,13 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.dll": {}
+          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.dll": {}
         }
       },
-      "System.Reflection.Emit.ILGeneration/4.0.0": {
+      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Reflection": "4.0.0",
@@ -4458,7 +4542,7 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -4502,13 +4586,13 @@
           "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
-      "System.Reflection.Primitives/4.0.0": {
+      "System.Reflection.Primitives/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Primitives.dll": {}
+          "ref/dotnet5.1/System.Reflection.Primitives.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Primitives.dll": {}
@@ -5067,7 +5151,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -6244,6 +6328,47 @@
           "lib/dnx451/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6887,10 +7012,11 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1"
@@ -6899,9 +7025,7 @@
           "Microsoft.CSharp",
           "mscorlib",
           "System",
-          "System.Core",
-          "System.Net",
-          "System.Net.Http"
+          "System.Core"
         ],
         "compile": {
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
@@ -6910,7 +7034,7 @@
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -7166,7 +7290,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -8343,6 +8467,47 @@
           "lib/dnx451/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -8986,10 +9151,11 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1"
@@ -8998,9 +9164,7 @@
           "Microsoft.CSharp",
           "mscorlib",
           "System",
-          "System.Core",
-          "System.Net",
-          "System.Net.Http"
+          "System.Core"
         ],
         "compile": {
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
@@ -9009,7 +9173,7 @@
           "lib/net451/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -9259,7 +9423,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -10267,6 +10431,49 @@
           "lib/dnxcore50/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Diagnostics.Tools": "4.0.1-beta-23516",
+          "System.Dynamic.Runtime": "4.0.11-beta-23516",
+          "System.Linq.Expressions": "4.0.11-beta-23516",
+          "System.Reflection.Emit": "4.0.1-beta-23516",
+          "System.Reflection.Emit.ILGeneration": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Reflection.Primitives": "4.0.1-beta-23516",
+          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
+          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516",
+          "System.Threading.ThreadPool": "4.0.10-beta-23516",
+          "System.Threading.Timer": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -10961,10 +11168,11 @@
           "lib/dnxcore50/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.CSharp": "4.0.1-beta-23516",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
@@ -10984,7 +11192,7 @@
           "lib/dotnet5.4/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
@@ -12154,7 +12362,7 @@
           "lib/DNXCore50/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.0": {
+      "System.Reflection.Emit/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.IO": "4.0.0",
@@ -12164,13 +12372,13 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.dll": {}
+          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.dll": {}
         }
       },
-      "System.Reflection.Emit.ILGeneration/4.0.0": {
+      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Reflection": "4.0.0",
@@ -12178,7 +12386,7 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -12237,13 +12445,13 @@
           "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
-      "System.Reflection.Primitives/4.0.0": {
+      "System.Reflection.Primitives/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Primitives.dll": {}
+          "ref/dotnet5.1/System.Reflection.Primitives.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Primitives.dll": {}
@@ -12839,7 +13047,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -13847,6 +14055,49 @@
           "lib/dnxcore50/Microsoft.AspNet.Server.WebListener.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Diagnostics.Tools": "4.0.1-beta-23516",
+          "System.Dynamic.Runtime": "4.0.11-beta-23516",
+          "System.Linq.Expressions": "4.0.11-beta-23516",
+          "System.Reflection.Emit": "4.0.1-beta-23516",
+          "System.Reflection.Emit.ILGeneration": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Reflection.Primitives": "4.0.1-beta-23516",
+          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
+          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516",
+          "System.Threading.ThreadPool": "4.0.10-beta-23516",
+          "System.Threading.Timer": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.SignalR.Messaging": "3.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -14541,10 +14792,11 @@
           "lib/dnxcore50/Npgsql.dll": {}
         }
       },
-      "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+      "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
           "CodeComb.Package": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
           "Microsoft.CSharp": "4.0.1-beta-23516",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
@@ -14564,7 +14816,7 @@
           "lib/dotnet5.4/PipeCI.TaskDispatcher.dll": {}
         }
       },
-      "PipeCI.Yml/1.0.0-alpha1-10000": {
+      "PipeCI.Yml/1.0.0-alpha1-10001": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
@@ -15734,7 +15986,7 @@
           "lib/DNXCore50/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.0": {
+      "System.Reflection.Emit/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.IO": "4.0.0",
@@ -15744,13 +15996,13 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.dll": {}
+          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.dll": {}
         }
       },
-      "System.Reflection.Emit.ILGeneration/4.0.0": {
+      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Reflection": "4.0.0",
@@ -15758,7 +16010,7 @@
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -15817,13 +16069,13 @@
           "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
-      "System.Reflection.Primitives/4.0.0": {
+      "System.Reflection.Primitives/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.Reflection.Primitives.dll": {}
+          "ref/dotnet5.1/System.Reflection.Primitives.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Primitives.dll": {}
@@ -16409,7 +16661,7 @@
   "libraries": {
     "CodeComb.AspNet.AntiXSS/2.0.0-rc1-final": {
       "type": "package",
-      "sha512": "0FheEHOGxWs6SvK8yL8qIyDomjz3sjKe8W2bPUMRrMxqQN2J4o7/41jBb50YbEJFfmNTks7DQZhlPXzXJAo3AA==",
+      "sha512": "TJSLCH/eZGFjZ4n8xjw5YatrpSpNHXQaThAE8mrQpHgRM/Iay4PcF+OQ/bPNbTk46BVf5BiLb1n8bdBOWD7tqQ==",
       "files": [
         "CodeComb.AspNet.AntiXSS.2.0.0-rc1-final.nupkg",
         "CodeComb.AspNet.AntiXSS.2.0.0-rc1-final.nupkg.sha512",
@@ -16420,12 +16672,12 @@
         "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.xml"
       ]
     },
-    "CodeComb.AspNet.Extensions/2.0.0-rc1-final": {
+    "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
       "type": "package",
-      "sha512": "rX0de9uNRBGOy8JrBJL+mNpGWyyyZ4zsqd/s+j8Sw05UVGgZWcpJJqqDxycqklI+zwfnCq6jHFIpzqnHDuqpBg==",
+      "sha512": "kMj9+Ytu7FsCK/8KHI7+NDB7ORcWJ+NUmod1YkL488GOwgmnQj0pyDG+sgfizML4YAr877InEPOs5OXrHIiQMA==",
       "files": [
-        "CodeComb.AspNet.Extensions.2.0.0-rc1-final.nupkg",
-        "CodeComb.AspNet.Extensions.2.0.0-rc1-final.nupkg.sha512",
+        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-2.nupkg",
+        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-2.nupkg.sha512",
         "CodeComb.AspNet.Extensions.nuspec",
         "lib/dotnet5.4/CodeComb.AspNet.Extensions.dll",
         "lib/dotnet5.4/CodeComb.AspNet.Extensions.xml",
@@ -16487,7 +16739,7 @@
     },
     "CodeComb.Net.EmailSender/2.0.0-rc1-final": {
       "type": "package",
-      "sha512": "OPALfYP6qFOuHaLmbTQbdWU4HAKBKp7x6gHe5NgkWttgxuwagzEcamqRgU5sypq0MS8qlD6i8p/soaG8mtHn8Q==",
+      "sha512": "FQXF01q1U1zloqyoiUeCEjLDfz8cieewx9e0hDJeHlXBwjdwUyDriN0nc9rssD4ARrpV28bxS7LPCGCGRGjiKw==",
       "files": [
         "CodeComb.Net.EmailSender.2.0.0-rc1-final.nupkg",
         "CodeComb.Net.EmailSender.2.0.0-rc1-final.nupkg.sha512",
@@ -16500,7 +16752,7 @@
     },
     "CodeComb.Package/2.0.0-rc1-final": {
       "type": "package",
-      "sha512": "jTnOO82xjHhg9fRgKZkif/LdJ13gKLABU18BrGcoCVjQqghR5rUVcBV1ns/ijcAKnzD+D+deNMeogs8Su8KAQQ==",
+      "sha512": "8VrRWNehALnMoI6MGtBcncdyy2KYKchho8djScB3VhedpVLGZg3+WSJ9hngYB6McgmFGNbwxDo9Ioe7DvbHkwg==",
       "files": [
         "CodeComb.Package.2.0.0-rc1-final.nupkg",
         "CodeComb.Package.2.0.0-rc1-final.nupkg.sha512",
@@ -17255,6 +17507,34 @@
         "Microsoft.AspNet.Server.WebListener.nuspec"
       ]
     },
+    "Microsoft.AspNet.SignalR.Messaging/3.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "SUEMLwn1drj9uKso1nd4aMBgtNZS2cqf+4Z8GNzxwiU72hMZGqmoKUd5qDfnwSrQK9OX2k3Q/5wOnuzn2KJGlQ==",
+      "files": [
+        "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll",
+        "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.xml",
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll",
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.xml",
+        "Microsoft.AspNet.SignalR.Messaging.3.0.0-rc1-final.nupkg",
+        "Microsoft.AspNet.SignalR.Messaging.3.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.AspNet.SignalR.Messaging.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.Server/3.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "McZAq54x+SawpNmPb2h6MAXbyaeGMMoobpB/qeHE4yUrLoAg3MgcsyfVv3vl8YJsWmhLlZb3n/08YvRYFe0gMA==",
+      "files": [
+        "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll",
+        "lib/dnx451/Microsoft.AspNet.SignalR.Server.xml",
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll",
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.xml",
+        "Microsoft.AspNet.SignalR.Server.3.0.0-rc1-final.nupkg",
+        "Microsoft.AspNet.SignalR.Server.3.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.AspNet.SignalR.Server.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -17271,7 +17551,7 @@
     },
     "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
       "type": "package",
-      "sha512": "2+V/VDgZu59Thrlp+FQH38H/SmPBegMKsG0ie1ZZyHtx7kJNEozIx/p9zs0UrolX0uyYX7Ouoj3Q3Be15lqXxA==",
+      "sha512": "E7VdmGw6xO3VHWapC+pNLZmo6yncS53UY3bmb5WZm9wliJBB1A6brgzKA4fcqiLrmJFx71r0M2zEbRDphRLUNg==",
       "files": [
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
@@ -17287,7 +17567,7 @@
     },
     "Microsoft.CodeAnalysis.Common/1.1.0-rc1-20151109-01": {
       "type": "package",
-      "sha512": "gC9zpQARTjIOht1dZM5Bp0fbOKA40yh0wHBMG2psLGquche0URbfdB9i1pnCusLospEsRIrNvYl75647BcBVug==",
+      "sha512": "5eea4BzS8/ge6aVWbweZ3LxMZumN7lm1hPPjSn3iAS3yi1ozsg1aCZ+lHq2nbS/ZNT+Z3QmTcmKaQd3b4bTqeA==",
       "files": [
         "lib/net45/Microsoft.CodeAnalysis.dll",
         "lib/net45/Microsoft.CodeAnalysis.xml",
@@ -17301,7 +17581,7 @@
     },
     "Microsoft.CodeAnalysis.CSharp/1.1.0-rc1-20151109-01": {
       "type": "package",
-      "sha512": "BFhSWMMlp0xLN/ogn71ULN7N0yy/yqJf/wu63x3KjV497n+8OlyiX7ZnbaQiUeafjW5P2vLzvZH99+5s+dH3Dg==",
+      "sha512": "2u8FpEIzbjvW6kveLYDwVgrrw7rkqN123dQSMLL3aRBcNFpKL4+hJkrU5uutsVNmjrzxjQkrSKQjIw6L2yjU9w==",
       "files": [
         "lib/net45/Microsoft.CodeAnalysis.CSharp.dll",
         "lib/net45/Microsoft.CodeAnalysis.CSharp.xml",
@@ -17952,29 +18232,29 @@
         "Npgsql.nuspec"
       ]
     },
-    "PipeCI.TaskDispatcher/1.0.0-alpha1-10006": {
+    "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
       "type": "package",
-      "sha512": "KbHo8nt0cMBJFa+rGfPZzBxbcMYGxWRc+MlyOthL9x72wGOEzma6egbJql+J4h8oWvofGxSMUnN4mD5LOo1yiQ==",
+      "sha512": "+Fo/Ev8ON0doYO0uH0JW+KWwF+zCdlxEWRUuOcZx79nrxguDuhJmhI6Vv6xy5hEgVceKbYhFAIg8BigRXkU/GA==",
       "files": [
         "lib/dotnet5.4/PipeCI.TaskDispatcher.dll",
         "lib/dotnet5.4/PipeCI.TaskDispatcher.xml",
         "lib/net451/PipeCI.TaskDispatcher.dll",
         "lib/net451/PipeCI.TaskDispatcher.xml",
-        "PipeCI.TaskDispatcher.1.0.0-alpha1-10006.nupkg",
-        "PipeCI.TaskDispatcher.1.0.0-alpha1-10006.nupkg.sha512",
+        "PipeCI.TaskDispatcher.1.0.0-alpha1-10008.nupkg",
+        "PipeCI.TaskDispatcher.1.0.0-alpha1-10008.nupkg.sha512",
         "PipeCI.TaskDispatcher.nuspec"
       ]
     },
-    "PipeCI.Yml/1.0.0-alpha1-10000": {
+    "PipeCI.Yml/1.0.0-alpha1-10001": {
       "type": "package",
-      "sha512": "x+6XHb/NIZdPh6Msibu2uglGE8KNeyMJ7wF2uwQ9xotw7A5aqxfIttjZQvVq5Aq6b0P12FDGoPkh3zY7TyA98g==",
+      "sha512": "7q1Jj969SlvEUKIL8a136jaf/Us5lWjHSysYBot1wEU/txxHNedYUMxG5p2p6N0M2DrkLc2P2HrDuqfbH3bPvA==",
       "files": [
         "lib/dotnet5.4/PipeCI.Yml.dll",
         "lib/dotnet5.4/PipeCI.Yml.xml",
         "lib/net451/PipeCI.Yml.dll",
         "lib/net451/PipeCI.Yml.xml",
-        "PipeCI.Yml.1.0.0-alpha1-10000.nupkg",
-        "PipeCI.Yml.1.0.0-alpha1-10000.nupkg.sha512",
+        "PipeCI.Yml.1.0.0-alpha1-10001.nupkg",
+        "PipeCI.Yml.1.0.0-alpha1-10001.nupkg.sha512",
         "PipeCI.Yml.nuspec"
       ]
     },
@@ -20611,57 +20891,61 @@
         "System.Reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.0.0": {
+    "System.Reflection.Emit/4.0.1-beta-23516": {
       "type": "package",
-      "sha512": "CqnQz5LbNbiSxN10cv3Ehnw3j1UZOBCxnE0OO0q/keGQ5ENjyFM6rIG4gm/i0dX6EjdpYkAgKcI/mhZZCaBq4A==",
+      "serviceable": true,
+      "sha512": "3j5EhKPGh7cbUu5QLP1RAabvjNIpJOr5hA1Ip5UQ4ozccUb6Fd3SZiP4VKpqm/RyVAZDnOc9vdNuazZebtJeHw==",
       "files": [
         "lib/DNXCore50/System.Reflection.Emit.dll",
         "lib/MonoAndroid10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
         "lib/xamarinmac20/_._",
-        "ref/dotnet/de/System.Reflection.Emit.xml",
-        "ref/dotnet/es/System.Reflection.Emit.xml",
-        "ref/dotnet/fr/System.Reflection.Emit.xml",
-        "ref/dotnet/it/System.Reflection.Emit.xml",
-        "ref/dotnet/ja/System.Reflection.Emit.xml",
-        "ref/dotnet/ko/System.Reflection.Emit.xml",
-        "ref/dotnet/ru/System.Reflection.Emit.xml",
-        "ref/dotnet/System.Reflection.Emit.dll",
-        "ref/dotnet/System.Reflection.Emit.xml",
-        "ref/dotnet/zh-hans/System.Reflection.Emit.xml",
-        "ref/dotnet/zh-hant/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/de/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/es/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/fr/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/it/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/ja/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/ko/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/ru/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/System.Reflection.Emit.dll",
+        "ref/dotnet5.2/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/zh-hans/System.Reflection.Emit.xml",
+        "ref/dotnet5.2/zh-hant/System.Reflection.Emit.xml",
         "ref/MonoAndroid10/_._",
         "ref/net45/_._",
         "ref/xamarinmac20/_._",
-        "System.Reflection.Emit.4.0.0.nupkg",
-        "System.Reflection.Emit.4.0.0.nupkg.sha512",
+        "runtimes/aot/lib/netcore50/_._",
+        "System.Reflection.Emit.4.0.1-beta-23516.nupkg",
+        "System.Reflection.Emit.4.0.1-beta-23516.nupkg.sha512",
         "System.Reflection.Emit.nuspec"
       ]
     },
-    "System.Reflection.Emit.ILGeneration/4.0.0": {
+    "System.Reflection.Emit.ILGeneration/4.0.1-beta-23516": {
       "type": "package",
-      "sha512": "02okuusJ0GZiHZSD2IOLIN41GIn6qOr7i5+86C98BPuhlwWqVABwebiGNvhDiXP1f9a6CxEigC7foQD42klcDg==",
+      "serviceable": true,
+      "sha512": "yE70TNyWcGSgyBAxGGL4yVwJ27V289l40xnItK9VHds+333MWB5pNOv2dgHYniogzsjg4aE2bGHrsoEyRFupew==",
       "files": [
         "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
         "lib/wp80/_._",
-        "ref/dotnet/de/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/es/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/fr/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/it/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/ja/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/ko/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/ru/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/System.Reflection.Emit.ILGeneration.dll",
-        "ref/dotnet/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/zh-hans/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet/zh-hant/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/de/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/es/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/fr/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/it/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/ja/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/ko/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/ru/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll",
+        "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/zh-hans/System.Reflection.Emit.ILGeneration.xml",
+        "ref/dotnet5.1/zh-hant/System.Reflection.Emit.ILGeneration.xml",
         "ref/net45/_._",
         "ref/wp80/_._",
-        "System.Reflection.Emit.ILGeneration.4.0.0.nupkg",
-        "System.Reflection.Emit.ILGeneration.4.0.0.nupkg.sha512",
+        "runtimes/aot/lib/netcore50/_._",
+        "System.Reflection.Emit.ILGeneration.4.0.1-beta-23516.nupkg",
+        "System.Reflection.Emit.ILGeneration.4.0.1-beta-23516.nupkg.sha512",
         "System.Reflection.Emit.ILGeneration.nuspec"
       ]
     },
@@ -20771,7 +21055,7 @@
     "System.Reflection.Metadata/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "RLIE4sSt2zngMLuqM6YmxBH99mTumtT4DNZE4+msfEaInUP5iCLQT+BHPl+2cjSAP1pdALyAjLB8RtCB+WGGWQ==",
+      "sha512": "a8VsRm/B0Ik1o5FumSMWmpwbG7cvIIajAYhzTTy9VB9XItByJDQHGZkQTIAdsvVJ6MI5O3uH/lb0izgQDlDIWA==",
       "files": [
         "lib/dotnet5.2/System.Reflection.Metadata.dll",
         "lib/dotnet5.2/System.Reflection.Metadata.xml",
@@ -20816,10 +21100,53 @@
         "System.Reflection.Primitives.nuspec"
       ]
     },
+    "System.Reflection.Primitives/4.0.1-beta-23516": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "7NH2XF/cEiEZoMtYSZS6sNuVv7lzgKZsdkqizwJd5yr70mVuDUCzlqsTAeOa+IebxAro8LM2zv7fBlPO05NvaA==",
+      "files": [
+        "lib/DNXCore50/System.Reflection.Primitives.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Primitives.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet5.1/de/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/es/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/fr/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/it/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/ja/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/ko/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/ru/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/System.Reflection.Primitives.dll",
+        "ref/dotnet5.1/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/zh-hans/System.Reflection.Primitives.xml",
+        "ref/dotnet5.1/zh-hant/System.Reflection.Primitives.xml",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Reflection.Primitives.xml",
+        "ref/netcore50/es/System.Reflection.Primitives.xml",
+        "ref/netcore50/fr/System.Reflection.Primitives.xml",
+        "ref/netcore50/it/System.Reflection.Primitives.xml",
+        "ref/netcore50/ja/System.Reflection.Primitives.xml",
+        "ref/netcore50/ko/System.Reflection.Primitives.xml",
+        "ref/netcore50/ru/System.Reflection.Primitives.xml",
+        "ref/netcore50/System.Reflection.Primitives.dll",
+        "ref/netcore50/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Reflection.Primitives.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.Primitives.dll",
+        "System.Reflection.Primitives.4.0.1-beta-23516.nupkg",
+        "System.Reflection.Primitives.4.0.1-beta-23516.nupkg.sha512",
+        "System.Reflection.Primitives.nuspec"
+      ]
+    },
     "System.Reflection.TypeExtensions/4.0.1-beta-23409": {
       "type": "package",
       "serviceable": true,
-      "sha512": "Q3FiCsJ/4s2nuyhOHAFhc0Te10LzPjv6QzVcywA3oWI1msfDg583RIXQ9YifDfOuig+wg+SX0p133qV71HVfyw==",
+      "sha512": "n8m144jjCwhN/qtLih35a2sO33fLWm1U3eg51KxqAcAjJcw0nq1zWie8FZognBTPv7BXdW/G8xGbbvDGFoJwZA==",
       "files": [
         "lib/DNXCore50/de/System.Reflection.TypeExtensions.xml",
         "lib/DNXCore50/es/System.Reflection.TypeExtensions.xml",
@@ -22760,12 +23087,13 @@
       "Microsoft.Extensions.Configuration.Json >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Console >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
+      "Microsoft.AspNet.SignalR.Server >= 3.0.0-rc1-final",
       "EntityFramework.InMemory >= 7.0.0-rc1-final",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
       "EntityFramework.Sqlite >= 7.0.0-rc1-final",
       "EntityFramework7.Npgsql >= 3.1.0-rc1-1",
       "Npgsql >= 3.1.0-alpha5",
-      "CodeComb.AspNet.Extensions >= 2.0.0-rc1-final",
+      "CodeComb.AspNet.Extensions >= 2.0.0-rc1-final-2",
       "CodeComb.AspNet.Localization >= 2.0.0-rc1-final",
       "CodeComb.AspNet.AntiXSS >= 2.0.0-rc1-final",
       "CodeComb.Net.EmailSender >= 2.0.0-rc1-final",
