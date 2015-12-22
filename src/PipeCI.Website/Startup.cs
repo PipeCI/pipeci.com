@@ -62,10 +62,8 @@ namespace PipeCI.Website
             services.AddEFLocalization<PipeCIContext, Guid>()
                 .AddCookieCulture();
             #endregion
-            #region Add Mvc & Template View Engine
-            services.AddMvc()
-                .AddTemplate()
-                .AddCookieTemplateProvider();
+            #region Add Mvc
+            services.AddMvc();
             #endregion
             #region Add Extensions
             services.AddSmartCookies();
@@ -73,11 +71,15 @@ namespace PipeCI.Website
             services.AddSmtpEmailSender("smtp.ym.163.com", 25, "vNext China", "noreply@vnextcn.org", "noreply@vnextcn.org", "123456");
             services.AddAntiXss();
             #endregion
+            #region Add SignalR v3
+            services.AddSignalR();
+            #endregion
         }
 
         public void Configure(IApplicationBuilder app)
         {
             app.UseIISPlatformHandler();
+            app.UseSignalR();
             app.UseIdentity();
             app.UseAutoAjax("/scripts/shared/jquery.autoajax.js");
             app.UseJavascriptLocalization("/scripts/shared/localization.js");

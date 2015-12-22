@@ -266,14 +266,14 @@
           "lib/net451/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1862,7 +1862,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -2363,14 +2363,14 @@
           "lib/dotnet5.4/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "compile": {
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
@@ -3847,7 +3847,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.0.11-beta-23516",
@@ -5395,14 +5395,14 @@
           "lib/net451/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6997,7 +6997,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -7534,14 +7534,14 @@
           "lib/net451/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -9136,7 +9136,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -9637,14 +9637,14 @@
           "lib/dotnet5.4/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "compile": {
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
@@ -11127,7 +11127,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.0.11-beta-23516",
@@ -13261,14 +13261,14 @@
           "lib/dotnet5.4/EntityFramework.Sqlite.dll": {}
         }
       },
-      "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+      "EntityFramework7.Npgsql/3.1.0-rc1-3": {
         "type": "package",
         "dependencies": {
           "EntityFramework.Core": "7.0.0-rc1-final",
           "EntityFramework.Relational": "7.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Npgsql": "3.1.0-alpha5"
+          "Npgsql": "3.1.0-alpha6"
         },
         "compile": {
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
@@ -14751,7 +14751,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/3.1.0-alpha5": {
+      "Npgsql/3.1.0-alpha6": {
         "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.0.11-beta-23516",
@@ -16845,12 +16845,12 @@
         "lib/netcore50/EntityFramework.Sqlite.xml"
       ]
     },
-    "EntityFramework7.Npgsql/3.1.0-rc1-1": {
+    "EntityFramework7.Npgsql/3.1.0-rc1-3": {
       "type": "package",
-      "sha512": "DqtxgyDO6CytaSomLomOFv2AvMn170HIOISuHBHjteLOvRTRm35pR+4i9F2F94f0r6Cpu0NLcT+Q4MAB1r3qpg==",
+      "sha512": "VW/pz4Luixgc9UuAXPP9vzPIrrw9sHD4ozd2HUzeI3Sd4RdCgSFQT+B3HhPw/+JGKcdAnIQ4D5/Llk43fH07hw==",
       "files": [
-        "EntityFramework7.Npgsql.3.1.0-rc1-1.nupkg",
-        "EntityFramework7.Npgsql.3.1.0-rc1-1.nupkg.sha512",
+        "EntityFramework7.Npgsql.3.1.0-rc1-3.nupkg",
+        "EntityFramework7.Npgsql.3.1.0-rc1-3.nupkg.sha512",
         "EntityFramework7.Npgsql.nuspec",
         "lib/dnx451/EntityFramework7.Npgsql.dll",
         "lib/dnx451/EntityFramework7.Npgsql.xml",
@@ -18212,9 +18212,9 @@
         "tools/install.ps1"
       ]
     },
-    "Npgsql/3.1.0-alpha5": {
+    "Npgsql/3.1.0-alpha6": {
       "type": "package",
-      "sha512": "mtPprHO+SpqGIcJHer5k7Vfi2llSWME79V46QTkbwiVwwlulgZKvMCC0lHTw2ujwdO8PFtbjDiB1E7YbNxpaVg==",
+      "sha512": "gYOozZ+PPgrw7zogHlBONFjZxNnagSWkDfVXZTamJy9zWRU/+O6pCHgEsEwsdENGaYC0RFvQUbDo5lIYA8kjpA==",
       "files": [
         "app/project.json",
         "app/rewrite-async",
@@ -18227,8 +18227,8 @@
         "lib/net45/Npgsql.xml",
         "lib/net452/Npgsql.dll",
         "lib/net452/Npgsql.xml",
-        "Npgsql.3.1.0-alpha5.nupkg",
-        "Npgsql.3.1.0-alpha5.nupkg.sha512",
+        "Npgsql.3.1.0-alpha6.nupkg",
+        "Npgsql.3.1.0-alpha6.nupkg.sha512",
         "Npgsql.nuspec"
       ]
     },
@@ -23091,8 +23091,8 @@
       "EntityFramework.InMemory >= 7.0.0-rc1-final",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
       "EntityFramework.Sqlite >= 7.0.0-rc1-final",
-      "EntityFramework7.Npgsql >= 3.1.0-rc1-1",
-      "Npgsql >= 3.1.0-alpha5",
+      "EntityFramework7.Npgsql >= 3.1.0-rc1-3",
+      "Npgsql >= 3.1.0-alpha6",
       "CodeComb.AspNet.Extensions >= 2.0.0-rc1-final-2",
       "CodeComb.AspNet.Localization >= 2.0.0-rc1-final",
       "CodeComb.AspNet.AntiXSS >= 2.0.0-rc1-final",
