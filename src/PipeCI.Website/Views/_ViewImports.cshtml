@@ -1,0 +1,7 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNet.Http
+@using Newtonsoft.Json
+@using PipeCI.Website.Models
+@inject CodeComb.AspNet.Extensions.SmartCookies.SmartCookies Cookies
+@inject CodeComb.AspNet.Extensions.SmartUser.SmartUser<User, Guid> User
+@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
