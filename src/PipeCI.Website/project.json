@@ -20,7 +20,7 @@
     "EntityFramework.Sqlite": "7.0.0-rc1-final",
     "EntityFramework7.Npgsql": "3.1.0-rc1-3",
     "Npgsql": "3.1.0-alpha6",
-    "CodeComb.AspNet.Extensions": "2.0.0-rc1-final-2",
+    "CodeComb.AspNet.Extensions": "2.0.0-rc1-final-3",
     "CodeComb.AspNet.Localization": "2.0.0-rc1-final",
     "CodeComb.AspNet.AntiXSS": "2.0.0-rc1-final",
     "CodeComb.Net.EmailSender": "2.0.0-rc1-final",
