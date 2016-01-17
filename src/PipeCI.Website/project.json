@@ -27,7 +27,8 @@
     "CodeComb.Marked": "2.0.0-rc1-final",
     "CodeComb.Media": "2.0.0-rc1-final",
     "PipeCI.TaskDispatcher": "1.0.0-*",
-    "PipeCI.Yml": "1.0.0-*"
+    "PipeCI.Yml": "1.0.0-*",
+    "PipeCI.Blob": "1.0.0-*"
   },
 
   "commands": {

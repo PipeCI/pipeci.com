@@ -74,6 +74,11 @@ namespace PipeCI.Website
             #region Add SignalR v3
             services.AddSignalR();
             #endregion
+            #region Add PipeCI.Blob
+            services.AddBlob()
+                .AddEntityFrameworkStorage<PipeCIContext>()
+                .AddSignedUserBlobUploadAuthorization();
+            #endregion
         }
 
         public void Configure(IApplicationBuilder app)
@@ -81,6 +86,7 @@ namespace PipeCI.Website
             app.UseIISPlatformHandler();
             app.UseSignalR();
             app.UseIdentity();
+            app.UseBlob();
             app.UseAutoAjax("/scripts/shared/jquery.autoajax.js");
             app.UseJavascriptLocalization("/scripts/shared/localization.js");
             app.UseMvcWithDefaultRoute();

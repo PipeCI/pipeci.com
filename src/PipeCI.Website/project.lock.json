@@ -22,7 +22,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -1877,6 +1877,27 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        }
+      },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
@@ -2149,7 +2170,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -3888,6 +3909,26 @@
           "lib/dnxcore50/Npgsql.dll": {}
         }
       },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
+        }
+      },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
@@ -5151,7 +5192,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -7012,6 +7053,27 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        }
+      },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
@@ -7290,7 +7352,7 @@
           "lib/dnx451/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -9151,6 +9213,27 @@
           "lib/net45/Npgsql.dll": {}
         }
       },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/net451/PipeCI.Blob.dll": {}
+        }
+      },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
         "type": "package",
         "dependencies": {
@@ -9423,7 +9506,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -11166,6 +11249,26 @@
         },
         "runtime": {
           "lib/dnxcore50/Npgsql.dll": {}
+        }
+      },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
         }
       },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
@@ -13047,7 +13150,7 @@
           "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.dll": {}
         }
       },
-      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+      "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
@@ -14790,6 +14893,26 @@
         },
         "runtime": {
           "lib/dnxcore50/Npgsql.dll": {}
+        }
+      },
+      "PipeCI.Blob/1.0.0-alpha1-10005": {
+        "type": "package",
+        "dependencies": {
+          "CodeComb.AspNet.Extensions": "2.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.AspNet.Routing": "1.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/PipeCI.Blob.dll": {}
         }
       },
       "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
@@ -16672,12 +16795,14 @@
         "lib/dotnet5.4/CodeComb.AspNet.AntiXSS.xml"
       ]
     },
-    "CodeComb.AspNet.Extensions/2.0.0-rc1-final-2": {
+    "CodeComb.AspNet.Extensions/2.0.0-rc1-final-3": {
       "type": "package",
-      "sha512": "kMj9+Ytu7FsCK/8KHI7+NDB7ORcWJ+NUmod1YkL488GOwgmnQj0pyDG+sgfizML4YAr877InEPOs5OXrHIiQMA==",
+      "sha512": "UEaXkblyRs9Yxjof3pLgSrv3HWGby8Kq8hzVX4/zAfR9m/M20J9bSfACXdQiPw5vEZpADQvnlNHuc9dpBZF04g==",
       "files": [
-        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-2.nupkg",
-        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-2.nupkg.sha512",
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-3.nupkg",
+        "CodeComb.AspNet.Extensions.2.0.0-rc1-final-3.nupkg.sha512",
         "CodeComb.AspNet.Extensions.nuspec",
         "lib/dotnet5.4/CodeComb.AspNet.Extensions.dll",
         "lib/dotnet5.4/CodeComb.AspNet.Extensions.xml",
@@ -18230,6 +18355,19 @@
         "Npgsql.3.1.0-alpha6.nupkg",
         "Npgsql.3.1.0-alpha6.nupkg.sha512",
         "Npgsql.nuspec"
+      ]
+    },
+    "PipeCI.Blob/1.0.0-alpha1-10005": {
+      "type": "package",
+      "sha512": "/54uCmH8cxIpXh3+gFMdY2DzIksxY43hwUw7GG9GM7jSPzRPfCTRnEmgiVP5k4Q5Mr+cGVRg4v8lZlpWKVlSIw==",
+      "files": [
+        "lib/dotnet5.4/PipeCI.Blob.dll",
+        "lib/dotnet5.4/PipeCI.Blob.xml",
+        "lib/net451/PipeCI.Blob.dll",
+        "lib/net451/PipeCI.Blob.xml",
+        "PipeCI.Blob.1.0.0-alpha1-10005.nupkg",
+        "PipeCI.Blob.1.0.0-alpha1-10005.nupkg.sha512",
+        "PipeCI.Blob.nuspec"
       ]
     },
     "PipeCI.TaskDispatcher/1.0.0-alpha1-10008": {
@@ -23093,14 +23231,15 @@
       "EntityFramework.Sqlite >= 7.0.0-rc1-final",
       "EntityFramework7.Npgsql >= 3.1.0-rc1-3",
       "Npgsql >= 3.1.0-alpha6",
-      "CodeComb.AspNet.Extensions >= 2.0.0-rc1-final-2",
+      "CodeComb.AspNet.Extensions >= 2.0.0-rc1-final-3",
       "CodeComb.AspNet.Localization >= 2.0.0-rc1-final",
       "CodeComb.AspNet.AntiXSS >= 2.0.0-rc1-final",
       "CodeComb.Net.EmailSender >= 2.0.0-rc1-final",
       "CodeComb.Marked >= 2.0.0-rc1-final",
       "CodeComb.Media >= 2.0.0-rc1-final",
       "PipeCI.TaskDispatcher >= 1.0.0-*",
-      "PipeCI.Yml >= 1.0.0-*"
+      "PipeCI.Yml >= 1.0.0-*",
+      "PipeCI.Blob >= 1.0.0-*"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
