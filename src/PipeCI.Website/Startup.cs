@@ -87,8 +87,8 @@ namespace PipeCI.Website
             app.UseSignalR();
             app.UseIdentity();
             app.UseBlob();
-            app.UseAutoAjax("/scripts/shared/jquery.autoajax.js");
-            app.UseJavascriptLocalization("/scripts/shared/localization.js");
+            app.UseAutoAjax("/scripts/jquery.autoajax.js");
+            app.UseJavascriptLocalization("/scripts/localization.js");
             app.UseMvcWithDefaultRoute();
         }
 
